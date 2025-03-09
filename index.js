@@ -7,9 +7,9 @@ const mime = require('mime-types');
 
 const app = express();
 const port = 3000;
-const githubToken = `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`; // https://github.com/settings/tokens
-const owner = 'Abella01'; // GitHub username
-const repo = 'Yatta'; // Repository name
+const githubToken = `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`; // https://github.com/settings/tokens
+const owner = 'Bell575'; // GitHub username
+const repo = 'Uploader'; // Repository name
 const branch = 'main';
 
 app.use(fileUpload());
@@ -92,3 +92,4 @@ app.post('/upload', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
+                                                 

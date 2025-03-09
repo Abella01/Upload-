@@ -9,7 +9,7 @@ const app = express();
 const port = 3000;
 const githubToken = `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`; // https://github.com/settings/tokens
 const owner = 'Abella01'; // GitHub username
-const repo = 'Uploader'; // Repository name
+const repo = 'Yatta'; // Repository name
 const branch = 'main';
 
 app.use(fileUpload());
